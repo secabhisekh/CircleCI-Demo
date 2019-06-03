@@ -40,33 +40,35 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Namespace_Prefix__c</fullName>
+        <fullName>Tests__c</fullName>
         <externalId>false</externalId>
-        <label>Namespace Prefix</label>
-        <length>255</length>
-        <required>false</required>
+        <label>Tests</label>
+        <length>10</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Sample</label>
+    <label>Test</label>
     <nameField>
-        <label>Sample Name</label>
+        <label>Test Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Samples</pluralLabel>
+    <pluralLabel>Tests</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -1,7 +1,20 @@
 {
-    "orgName": "mickwheeler Company",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
-    }
-}
+    "orgName": "SFDX BRILLIO",
+    "edition": "Enterprise",
+    "features": ["Communities"],
+        "settings": {
+            "orgPreferenceSettings": { 
+                "s1DesktopEnabled": true, 
+                "networksEnabled": true 
+                },
+            "accountSettings": {
+            "enableAccountTeams": true
+            },
+            "opportunitySettings": {
+            "enableOpportunityTeam": true
+            },
+            "omniChannelSettings": {
+                "enableOmniChannel": true
+          }
+        }
+ }
