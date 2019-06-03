@@ -39,14 +39,9 @@ workflows:
             branches:
               ignore:
                 - master
-<<<<<<< HEAD
-                - scratch2
-                - scratch3
-=======
                 - Dev1
                 - Dev2
                 - QA
->>>>>>> Dev1
       - deploy-prod:
           filters:
             branches:
